@@ -1,8 +1,6 @@
 package com.neoteric.springbootdocker.streams;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 import java.util.function.Predicate;
 
 public class StreamsDemoTest {
@@ -54,4 +52,10 @@ public class StreamsDemoTest {
         employeeList.addAll(newEmployees); // Add after iteration
         System.out.println("Updated Employee List: " + employeeList);
     }
+
+    Map<Employee,Employee>myEmployeMap=new TreeMap<>();
+
+
+
+
 }
